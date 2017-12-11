@@ -1,0 +1,77 @@
+.bg-1 { 
+    background-color: #3284BF;  /* UCLA Blue */
+    color: #FFE800;             /* UCLA Yellow */
+ }
+
+ .bg-2 { 
+    background-color: #00274c;  /* Michigan Blue */
+    color: #ffcb05;             /* Michigan Maize */
+}
+
+.bg-3 { 
+    background-color: #3284BF;  /* UCLA Blue */
+    color: #ffcb05;             /* Michigan Maize */
+}
+
+.bg-4 { 
+    background-color: #00274c;  /* Michigan Blue */
+    color: #FFE800;             /* UCLA Yellow */
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.img-responsive {
+    display: inline;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #4E2A84;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #ffcb05 !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #3284BF !important;
+    background-color: #ffcb05 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #ffcb05 !important;
+}
+
+body {
+    font: 20px "Montserrat", sans-serif;
+    line-height: 1.8;
+    color: #ffcb05;
+}
+
+p {
+    font-size: 16px;
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ffcb05;
+}
