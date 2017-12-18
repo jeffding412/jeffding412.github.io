@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Zhengfu (Jeffrey) Ding</title>
+        <title>Zhengfu Ding</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -10,10 +10,11 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
     </head>
-    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-        <script src="js/scroll.js"></script>
-        <nav class="navbar navbar-default navbar-fixed-top">
+    
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top" id="top">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -21,50 +22,58 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span> 
                     </button>
-                    <a class="navbar-brand" href="#myPage">Zhengfu Ding</a>
+                    <a class="navbar-brand" href="#top">Zhengfu Ding</a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#myPage">Home</a></li>
+                        <li><a href="#about">About</a></li>
                         <li><a href="#resume">Résumé</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="http://jeffding.com/blog/">Blog</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <div class="container-fluid bg-1 text-center" id="home">
-            <h3>Hi, I'm Zhengfu (Jeffrey) Ding</h3>
-            <img src="img/jeffding.png" class="img-responsive img-circle" alt="Jeffrey Ding">
-            <h3>I'm an anspiring full-stack developer</h3>
+        <div class="container-fluid bg-1 text-center" id="about">
+            <h3>Hi, I'm Zhengfu Ding</h3>
+            <img src="img/jeffding.png" class="img-responsive img-circle" style="display:inline" alt="Jeffrey Ding">
+            <h3>You can call me Jeff or Jeffrey</h3>
+            <div class="container">
+                <p>I’m a student at the University of California, Los Angeles. I am enrolled in the Henry Samueli School of Engineering and Applied Science and I am majoring in Computer Science. I hope to also include a minor in Accounting in the future. I’m an aspiring software developer and investment enthusiast, with my two passions being software development and money management. My dream is to create applications in the financial technology sector in order to help people better manage their money.</p>
+            </div>
         </div>
 
         <div class="container-fluid bg-2 text-center" id="resume">
             <h3>Résumé</h3>
-            <div class="jumbotron bg-1 text-left">
-                <h3>Zhengfu (Jeffrey) Ding</h3>
-                <p>San Jose, CA 95134 | 734-478-7512 | dingzhengfuaa@gmail.com</p>
-                <h3>Education</h3>
-                <p>University of California, Los Angeles – Los Angeles, CA – Expected 2021</p>
+            <div class="container text-left">
+                <h4>Location</h4>
+                <p>San Jose, California</p>
+                <br>
+                <h4>Education</h4>
+                <p>University of California, Los Angeles - 2017 to 2021 (Expected)</p>
                 <p>Bachelor of Science in Computer Science, Currently Enrolled, GPA: N/A</p>
-                <h3>Programming Languages, Tools, and Technologies</h3>
+                <br>
+                <h4>Technical Skills</h4>
                 <ul class="list-inline">
                     <li>Java</li>
                     <li>Python</li>
+                    <li>C++</li>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
-                    <li>C++</li>
-                    <li>Swift</li>
-                    <li>WordPress</li>
                     <li>Bootstrap</li>
                     <li>Amazon Web Service (AWS)</li>
                 </ul>
             </div>
-            <a href="https://www.linkedin.com/in/zhengfu-jeffrey-d-8391a7128/" target="_blank" class="btn btn-default btn-lg"><span class="fa fa-linkedin-square"></span> LinkedIn Profile</a>
+            <br>
+            <a href="https://www.linkedin.com/in/zhengfuding/" target="_blank" class="btn btn-default btn-lg">
+                <span class="fa fa-linkedin-square"></span> LinkedIn
+            </a>
         </div>
-
-        <div class="container-fluid bg-3 text-center" id="portfolio">
+              
+        <div class="container-fluid bg-3 text-center" id="where">
             <h3>Portfolio</h3>
             <div class="row">
                 <div class="col-sm-4">
@@ -73,26 +82,24 @@
                         <img src="img/tombrady.png" class="img-responsive img-thumbnail" alt="Tom Brady Tribute Page">
                     </a>
                 </div>
-
+    
                 <div class="col-sm-4">
                     <p>Ethical Investments Club</p>
                     <a href="http://ethicalinvestments.club/" target="_blank">
                         <img src="img/eic.png" class="img-responsive img-thumbnail" alt="Ethical Investments Club">
                     </a>
                 </div>
-
+    
                 <div class="col-sm-4">
-
+    
                 </div>
             </div>
+            <br>
             <a href="https://github.com/jeffding412" target="_blank" class="btn btn-default btn-lg"><span class="fa fa-github"></span> Github Profile</a>
         </div>
 
         <footer class="container-fluid bg-4 text-center">
-            <a href="#myPage" title="To Top">
-                <span class="glyphicon glyphicon-chevron-up"></span>
-            </a>
-            <p>Website created by Jeffrey Ding</p>
+            <p>Website Created By <a href="https://www.w3schools.com">Jeffrey Ding</a> using WordPress and Bootstrap</p> 
         </footer>
     </body>
 </html>
