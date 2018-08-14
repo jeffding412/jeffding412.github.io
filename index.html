@@ -1,115 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Zhengfu Ding</title>
+        <title>Jeffrey Ding</title>
+        <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="js/scroll.js"></script>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <link rel="icon" href="img/codeflavicon.png">
+
+        <!-- Custom JavaScript -->
+        <script src="main.js"></script>
     </head>
     
     <body>
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span> 
-                    </button>
-                    <a class="navbar-brand" href="#top">Zhengfu Ding</a>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="http://jeffding.com/">Home</a></li>
-                        <li><a href="#resume">Résumé</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="http://jeffding.com/contact/">Contact</a></li>
-                        <li><a href="http://jeffding.com/blog/">Blog</a></li>
-                    </ul>
-                </div>
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">Jeffrey Ding</a>
+            
+            <!-- Navbar Collapse -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar -->
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
             </div>
         </nav>
 
-        <div class="container-fluid bg-1 text-center" id="top">
-            <h3>Hi, I'm Zhengfu Ding</h3>
-            <img src="img/jeffding.png" class="img-responsive img-circle" style="display:inline" alt="Jeffrey Ding">
-            <h3>My name is Jeff</h3>
-            <div class="container">
-                <p>I’m a student at the University of California, Los Angeles. I am enrolled in the Henry Samueli School of Engineering and Applied Science and I am majoring in Computer Science. I hope to also include a minor in Accounting in the future. I’m an aspiring software developer and investment enthusiast, with my two passions being software development and money management. My dream is to create applications in the financial technology sector in order to help people better manage their money.</p>
+        <!-- Header -->
+        <div id="header" class="text-center jumbotron">
+            <div id="intro">
+                <h1>Jeffrey Ding</h1>
+                <h4>Software Developer</h4>
+                <h4>Personal Investor</h4>
+                <h4>The Lamar Odom of the Best Pickup Basketball Duo at UCLA</h4>
             </div>
         </div>
 
-        <div class="container-fluid bg-2 text-center" id="resume">
-            <h3>Résumé</h3>
-            <div class="container text-left">
-                <h4>Location</h4>
-                <p>San Jose, California</p>
-                <br>
-                <h4>Experience</h4>
-                <p>Ethical Investments Club - Lead Developer - December 2017 to Present</p>
-                <ul>
-                    <li>Created website for University of Michigan student investments club</li>
-                    <li>Created and implemented front-end design using Bootstrap</li>
-                    <li>Maintains website source code and hosting using AWS S3 and Route 53</li>
-                    <li>Implemented email list using MailChimp API</li>
-                </ul>
-                <br>
-                <h4>Education</h4>
-                <p>University of California, Los Angeles - 2017 to 2021 (Expected)</p>
-                <p>Bachelor of Science in Computer Science, Currently Enrolled, GPA: 3.80</p>
-                <br>
-                <h4>Technical Skills</h4>
-                <ul class="list-inline">
-                    <li>Java</li>
-                    <li>Python</li>
-                    <li>C++</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Bootstrap</li>
-                    <li>Amazon Web Service (AWS)</li>
-                </ul>
-            </div>
-            <br>
-            <a href="https://www.linkedin.com/in/zhengfuding/" target="_blank" class="btn btn-default btn-lg">
-                <span class="fa fa-linkedin-square"></span> LinkedIn
-            </a>
+        <!-- About Me -->
+        <div id="about" class="text-center container">
+            <h1>About Me</h1>
+            <h5>Bless up! I'm Jeffrey Ding and I'm studying Computer Science at UCLA! My three passions in life are basketball, software development, and personal finance, specifically in that order. Sadly, I don't think one of those passions are my true calling... Anyways, I'm an aspiring software developer and my dream is to build financial technology applications in order to improve the financial lives of millions of people.</h5>     
+            <h5>During my time at UCLA, I discovered that the college CS education was missing a practical application aspect. Additionally, after creating a website for some friends at the University of Michigan, I discovered a passion for web development. These discoveries drove me to attend the Coding Dojo in San Jose during the summer before my sophomore year. There I learned how to make full-stack web/mobile applications using three different technology stacks (Python, JavaScript, and Swift).</h5> 
+            <h5>When I'm not coding, I'm brainstorming ways to get a return on investment for my money. Recently, I've been investing in Real Estate Crowdfunding and Blockchain! I love to talk about investing, I'm actually trying to minor in Accounting, so feel free to talk finance with me! If I'm doing neither of these things, I'm either doing ministry or working on my hoop game.</h5>
+            <a href="" class="btn btn-primary">Résumé</a>
         </div>
-              
-        <div class="container-fluid bg-3 text-center" id="portfolio">
-            <h3>Portfolio</h3>
+
+        <!-- Background Image #1 -->
+        <div id="background1" class="jumbotron">
+
+        </div>
+
+        <!-- Skills -->
+        <div id="skills">
+            <h1 class="text-center">Skills</h1>
+        </div>
+
+        <!-- Background Image #2 -->
+        <div id="background2" class="jumbotron">
+
+        </div>
+
+        <!-- Projects -->
+        <div id="projects">
+            <h1 class="text-center">Projects</h1>
             <div class="row">
-                <div class="col-sm-4">
-                    <p>Tom Brady Tribute Page</p>
-                    <a href="https://codepen.io/dingzhengfuaa/full/eePMjx/" target="_blank">
-                        <img src="img/tombrady.png" class="img-responsive img-thumbnail" alt="Tom Brady Tribute Page">
-                    </a>
+                <div class="col">
+
                 </div>
-    
-                <div class="col-sm-4">
-                    <p>Ethical Investments Club</p>
-                    <a href="http://ethicalinvestments.club/" target="_blank">
-                        <img src="img/eic.png" class="img-responsive img-thumbnail" alt="Ethical Investments Club">
-                    </a>
+                <div class="col">
+
                 </div>
-    
-                <div class="col-sm-4">
-    
+                <div class="col">
+
                 </div>
             </div>
-            <br>
-            <a href="https://github.com/jeffding412" target="_blank" class="btn btn-default btn-lg"><span class="fa fa-github"></span> Github Profile</a>
         </div>
 
-        <footer class="container-fluid bg-4 text-center">
-            <p>Website Created By <a href="http://jeffding.com/">Jeffrey Ding</a> using Bootstrap</p> 
-        </footer>
+        <!-- Background Image #3 -->
+        <div id="background3" class="jumbotron">
+
+        </div>
+
+        <!-- Contact -->
+        <div id="contact" class="text-center">
+            <h1>Contact Me</h1>
+            <div class="row">
+                <div class="col">
+                    <p>734-478-7512</p>
+                </div>
+                <div class="col">
+                    <p>dingzhengfuaa@gmail.com</p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
