@@ -13,6 +13,7 @@ a {
 
 a:hover{
     text-decoration: none;
+    color: #ffb300;
 }
 
 #contact {
@@ -34,10 +35,37 @@ a:hover{
 }
 
 #intro {
-    position: absolute;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
-    left: 0;
-    right: 0;
-    top: 30%;
+    left: 0em;
+    right: 0em;
+    top: 200px;
+}
+
+#about {
+    padding-top: 20px;
+}
+
+#background1 {
+    background-image: url('../img/bg1.jpg');
+}
+
+#background2 {
+    background-image: url('../img/bg2.jpg');
+}
+
+#background3 {
+    background-image: url('../img/bg3.jpg');
+}
+
+.parallax { 
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
