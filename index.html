@@ -18,7 +18,7 @@
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <link rel="icon" href="img/codeflavicon.png">
@@ -26,8 +26,9 @@
         <!-- Custom JavaScript -->
         <script src="js/main.js"></script>
     </head>
-    
-    <body>
+
+    <!-- Scrollspy -->
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
         <!-- Navbar -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <!-- Logo -->
@@ -70,7 +71,7 @@
         </div>
 
         <!-- About Me -->
-        <div id="about" class="text-center container">
+        <div id="about" class="text-center container slideanim">
             <h1>About Me</h1>
             <h5>Hello World! I'm Jeffrey Ding and I'm studying Computer Science at UCLA! My three passions in life are basketball, software development, and personal finance, specifically in that order. Sadly, I don't think one of those passions are my true calling...</h5>
             <h5>Anyways, I'm an aspiring software developer and my dream is to build financial technology applications in order to improve the financial lives of millions of people. And it'd be an added bonus if my tech can make its way onto the phones of a few NBA players.</h5>     
@@ -84,7 +85,7 @@
         <div id="background1" class="parallax"></div>
 
         <!-- Skills -->
-        <div id="skills" class="container">
+        <div id="skills" class="container slideanim">
             <h1 class="text-center">Skills</h1>
             <div class="row">
                 <div class="col-3">
@@ -130,7 +131,7 @@
         <div id="background2" class="parallax"></div>
 
         <!-- Projects -->
-        <div id="projects">
+        <div id="projects" class="slideanim">
             <h1 class="text-center">Projects</h1>
             <div class="row">
                 <div class="col-lg">
@@ -234,6 +235,13 @@
                 <a href="https://devpost.com/jeffding412?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank" class="fa fa-wpforms"></a>
             </div>
         </div>
+
+        <footer class="container-fluid text-center">
+            <a href="#myPage" title="To Top">
+                <i class="fa fa-angle-up"></i>
+            </a>
+            <p>Website created by <a href="https://jeffding412.github.io/" title="Visit w3schools">Jeffrey Ding</a></p> 
+        </footer>
 
         <script src="js/particles.js"></script>
         <script src="js/app.js"></script>
