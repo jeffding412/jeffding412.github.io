@@ -159,6 +159,11 @@ div.caption {
     padding: 10px 20px;
 }
 
+div.description {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 /* Slide Animation */
 
 .slideanim {visibility:hidden;}
